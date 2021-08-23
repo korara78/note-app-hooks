@@ -86,11 +86,11 @@ export default function Home() {
   
 <body>
     <>
-      <h3>The Eternity Note App</h3>
-      <h5>..death, taxes, and your notes stored in memory :)</h5>   
+      <h3>The Note Reminder App</h3>
+      <h5>Caution: notes lost when deleting cookies.</h5>   
 
       <form class="w3-container">
-      <input class="w3-input" id="noteinput" style={{ width: '70%' }} type="text" placeholder="Enter new note that will be stored in memory for eternity" />
+      <input class="w3-input" id="noteinput" style={{ width: '70%' }} type="text" placeholder="Enter new note. Then press ENTER to be stored in memory" />
       </form>   
       <button onClick={() => handleClick()}>Add note</button>
       <Notes data={data} />
