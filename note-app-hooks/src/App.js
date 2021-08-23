@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import {useState, useEffect } from 'react'; //2 import the useState fuction from react
 import {produce} from 'immer'; //3 import produce from immer library
-import M from 'materialize-css';
 
 
 //Based on Akash Joshi's article on https://flexiple.com/react/react-hooks-learn-by-building-a-notes-app/
@@ -87,10 +86,10 @@ export default function Home() {
 <body>
     <>
       <h3>The Note Reminder App</h3>
-      <h5>Caution: notes lost when deleting cookies.</h5>   
+      <h5>Step 1: Click input text field and select a reminder. Step 2: Click Add note to set reminder.</h5>   
 
       <form class="w3-container">
-      <input class="w3-input" id="noteinput" style={{ width: '70%' }} type="text" placeholder="Enter new note. Then press ENTER to be stored in memory" />
+      <input class="w3-input" id="noteinput" style={{ width: '70%' }} type="text" placeholder="Enter new note and Press ENTER to be stored in memory. Press Add Note to display reminder. " />
       </form>   
       <button onClick={() => handleClick()}>Add note</button>
       <Notes data={data} />
