@@ -16,6 +16,8 @@ You may input a new note reminder and press Enter to save it. Clicking the input
 
 # Getting Started with Create React App
 
+This app is published on https://korara78.github.io/note-app-hooks/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
