@@ -1,4 +1,5 @@
-{ "homepage":"https://korara78.github.io/note-app-hooks",
+{ 
+  "homepage":"https://korara78.github.io/note-app-hooks",
   "name": "note-app-hooks",
   "version": "0.1.0",
   "private": true,
