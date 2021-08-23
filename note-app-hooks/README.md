@@ -10,13 +10,13 @@ The useEffect hook either returns data by accessing local storage or may return 
 
 Based on React useState and useEffect hooks as per Akash Joshi's article on https://flexiple.com/react/react-hooks-learn-by-building-a-notes-app/
 
+This app is published on https://korara78.github.io/note-app-hooks/
+
 ## App Instructions
 
 You may input a new note reminder and press Enter to save it. Clicking the input field provides a list of previously saved note reminders displayed in a menu. Clicking the Add note button moves the inputted text to be displayed as a note reminder. 
 
 # Getting Started with Create React App
-
-This app is published on https://korara78.github.io/note-app-hooks/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
