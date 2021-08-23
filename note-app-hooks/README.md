@@ -1,3 +1,19 @@
+# Notes App using React Hooks
+
+## Overview
+
+A simple Note taking app. The produce() function from the Immer library is used to take a base state as an input and is given instructions to output a new state. This produce() function was passed into the app's handleClick function which in turn was passed into the button element. 
+
+The useState hook provides the means to load the initial data and update the current state of the data in the presence of changed state.
+
+The useEffect hook either returns data by accessing local storage or may return a blank array of data. The useEffect hook processes upon each new render. 
+
+Based on React useState and useEffect hooks as per Akash Joshi's article on https://flexiple.com/react/react-hooks-learn-by-building-a-notes-app/
+
+## App Instructions
+
+You may input a new note reminder and press Enter to save it. Clicking the input field provides a list of previously saved note reminders displayed in a menu. Clicking the Add note button moves the inputted text to be displayed as a note reminder. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

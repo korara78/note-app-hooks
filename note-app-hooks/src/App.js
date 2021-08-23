@@ -50,7 +50,7 @@ const Notes = (props) => props.data.map(note => <div>{note.text}</div>);
 -4 useEffect returns setDate as an empty array waiting for new input.
 */
 
-export default function Home() {
+export default function App() {
 
   const initialData = [{ text: 'Loading Data ...' }];
   const [data, setData] = useState(initialData);
