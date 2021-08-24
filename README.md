@@ -6,7 +6,7 @@ A simple Note taking app. The produce() function from the Immer library is used 
 
 The useState hook provides the means to load the initial data and update the current state of the data in the presence of changed state.
 
-The useEffect hook either returns data by accessing local storage or may return a blank array of data. The useEffect hook processes upon each new render. 
+The useEffect hook returns data by accessing local storage and checking for matches. If a match is found it returns it to the input field. If not found a blank array of data is returned. The useEffect hook processes upon each new render. 
 
 Based on React useState and useEffect hooks as per Akash Joshi's article on https://flexiple.com/react/react-hooks-learn-by-building-a-notes-app/
 
