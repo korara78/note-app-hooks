@@ -4,9 +4,9 @@
 
 A simple Note taking app. The produce() function from the Immer library is used to take a base state as an input and is given instructions to output a new state. This produce() function was passed into the app's handleClick function which in turn was passed into the button element. 
 
-The useState hook provides the means to load the initial data and update the current state of the data in the presence of changed state.
+The useState hook provides the means to load the initial data and update the current state of the data in the presence of changed state. The user inputting text into the input field will change the state of the app.
 
-The useEffect hook returns data by accessing local storage and checking for matches. If a match is found it returns it to the input field. If not found a blank array of data is returned. The useEffect hook processes upon each new render. 
+The useEffect hook returns data by accessing local storage and checking for matched text entered by the user within an input field. Returned matches are shown via a menu list. If not found a blank array of data is returned. The useEffect hook processes upon each new render. 
 
 Based on React useState and useEffect hooks as per Akash Joshi's article on https://flexiple.com/react/react-hooks-learn-by-building-a-notes-app/
 
@@ -14,7 +14,13 @@ This app is published on https://korara78.github.io/note-app-hooks/
 
 ## App Instructions
 
-You may input a new note reminder and press Enter to save it. Clicking the input field provides a list of previously saved note reminders displayed in a menu. Clicking the Add note button moves the inputted text to be displayed as a note reminder. 
+Selecting from menu options:
+
+Clicking the input field will display a hidden menu of previously saved Note Reminders. Select desired Note Reminder and click the Add note button. This Note Reminder will be displayed on a static list even if the webpage is refreshed.
+
+Creating a new Note Reminder: 
+
+You may create a new Note Reminder by inputting text in the input field then press the Enter key on the keyboard. This will save it unto this hidden menu. 
 
 # Getting Started with Create React App
 
